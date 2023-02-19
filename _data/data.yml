@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -12,62 +12,59 @@ sidebar:
     avatar: nemanja_ilic.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: my@mail.com
-    phone: +381 63 1122 334
+#    email: my@mail.com
+#    phone: +381 63 1122 334
     timezone: GMT+1 Timezone
     citizenship: Serbian
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: 
-    github: NEMANJA-ILIC
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+#    website: blog.webjeda.com #do not add http://
+#    linkedin: alandoe
+#    xing: 
+#    github: NEMANJA-ILIC
+#    telegram: # add your nickname without '@' sign
+#    gitlab:
+#    bitbucket:
+#    twitter: '@webjeda'
+#    stack-overflow: # Number/Username, e.g. 123456/alandoe
+#    codewars:
+#    goodreads: # Number-Username, e.g. 123456-alandoe
+#    pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Serbian
           level: Native
 
-        - idiom: French
-          level: Professional
+        - idiom: English
+          level: FCE
 
-        - idiom: Spanish
-          level: Professional
+        - idiom: German
+          level: A2
 
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
+#    interests:
+#      title: Interests
+#      info:
+#        - item: Climbing
+#          link:
+#
+#        - item: Snowboarding
+#          link:
+#
+#        - item: Cooking
+#          link:
 
 career-profile:
-    title: Career Profile
+    title: About
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      MSc of applied computer science on the Faculty of Technical Sciences in Novi 
+      Sad. Bachelor with honors in electrical and computer engineering.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: MSc – Applied software engineering
+        university: Faculty of Technical Sciences, Novi Sad
+#        time: 2016.10. – 2022.09.
+        time: 2016 – 2022
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -76,9 +73,10 @@ education:
           pretium quis, sem.
             - Bullet point
             - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+      - degree: BSc – Computing and control engineering – Applied computer science
+        university: Faculty of Technical Sciences, Novi Sad
+#        time: 2012.09. – 2016.10.
+        time: 2012 – 2016
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -87,72 +85,85 @@ education:
           pretium quis, sem.
             - Bullet point
             - Bullet point
+      - degree: Natural sciences and mathematics
+        university: Grammar school Jovan Jovanović Zmaj, Novi Sad
+#        time: 2012.07. – 2008.09.
+        time: 2012 – 2008
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Local embedded C, coding guidelines and MISRA guidelines trainer
+#        time: 2022.03 – Present
+        time: 2022 – Present
+        company: Continental Automotive Serbia d.o.o., Novi Sad
+        details:
+      - role: Software Developer
+#        time: 2019.07 – Present
+        time: 2019 – Present
+        company: Continental Automotive Serbia d.o.o., Novi Sad
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          - Implementation of the entire V-cycle development process for multiple 
+          applicative functionalities.
+          - Development and maintenance of multiple functional safety modules 
+          respecting MISRA and ISO26262
+          - Work on both vehicles with ICU and fully electric vehicles
+          - Development and maintenance of a complex device driver component
+          - Extensive experience with schematic understanding and datasheets and 
+          controller reference manuals.
+          - Low level, “bare metal” programming and working with MCU peripherals 
+          (DMA, ADC, external timers)
+          - Involvement in the development of system requirements and 
+          negotiations with the client regarding customer requirements.
+          - Extensive experience with lab equipment (Scopes, logic analyzers, signal 
+          generators) as well as lab tools and soldering and micro soldering.
+          - Extensive experience in Vector CANoe, winIDEA and Eclipse(in house 
+          fork).
+          - Local HIL expert for automation tests, automating manual tests and 
+          improving the internal automation framework.
+          - Writing automation scripts for reproducing sporadic bugs.
+          - Deriving software safety concepts from technical safety concepts for 
+          applicative functionality.
+      - role: Scholarship student
+#        time: 2014.02 – 2019.07
+        time: 2014 – 2019
+        company: Schneider Electric DMS, Novi Sad
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+          - Development of automatic tests in custom python-based automation 
+          framework
+          - Development and maintenance of desktop server and client-side 
+          functionalities utilizing C#, WCF and WPF technologies.
+          - Development and maintenance of web application server and client-side 
+          functionalities utilizing C#, ASP.NET and JavaScript technologies.
+          - Development and maintenance of a set of batch scripts for completely 
+          autonomous download, deployment and startup of all services. 
+          Accompanying distribution, updater and versioning script developed as 
+          well.
+#projects:
+#    title: Projects
+#    intro: >
+#      You can list your side projects in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#    assignments:
+#      - title: Velocity
+#        link: "#hook"
+#        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+#
+#      - title: DevStudio
+#        link: "#"
+#        tagline: "A responsive website template designed to help web developers/designers market their services."
+#
+#      - title: Tempo
+#        link: "#"
+#        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#
+#      - title: Atom
+#        link: "#"
+#        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#
+#      - title: Delta
+#        link: "#"
+#        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 # oss:
 #     title: OSS Contributions
@@ -199,23 +210,32 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: C
+        level: 100%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Python
+        level: 80%
 
-      - name: Angular
-        level: 98%
+      - name: Batch
+        level: 80%
 
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: C++
         level: 60%
+
+      - name: AHK
+        level: 60%
+
+      - name: Assembly
+        level: 60%
+
+      - name: C#
+        level: 80%
+
+      - name: Java
+        level: 40% 
+
+      - name: VHDL
+        level: 40%
 
 footer: >
 #    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
