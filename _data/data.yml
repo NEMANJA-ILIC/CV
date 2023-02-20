@@ -105,13 +105,13 @@ experiences:
           - Implementation of the entire V-cycle development process for multiple 
           applicative functionalities.
           - Development and maintenance of multiple functional safety modules 
-          respecting MISRA and ISO26262
-          - Work on both vehicles with ICU and fully electric vehicles
+          respecting MISRA and ISO26262.
+          - Work on both vehicles with ICE and fully electric vehicles.
           - Development and maintenance of a complex device driver component
           - Extensive experience with schematic understanding and datasheets and 
           controller reference manuals.
           - Low level, “bare metal” programming and working with MCU peripherals 
-          (DMA, ADC, external timers)
+          (DMA, ADC, external timers).
           - Involvement in the development of system requirements and 
           negotiations with the client regarding customer requirements.
           - Extensive experience with lab equipment (Scopes, logic analyzers, signal 
@@ -129,7 +129,7 @@ experiences:
         company: Schneider Electric DMS, Novi Sad
         details: |
           - Development of automatic tests in custom python-based automation 
-          framework
+          framework.
           - Development and maintenance of desktop server and client-side 
           functionalities utilizing C#, WCF and WPF technologies.
           - Development and maintenance of web application server and client-side 
