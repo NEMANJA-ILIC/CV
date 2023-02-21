@@ -1,4 +1,7 @@
 <head>
+  {% if site.analytics %}
+    {% include analytics.html %}
+  {% endif %}
   <title>{{ site.title }}</title>
 
   <!-- Meta -->
