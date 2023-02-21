@@ -9,6 +9,9 @@
 <html lang="en">
   <!--<![endif]-->
   {% include head.html %}
+  {% if site.analytics %}
+    {% include analytics.html %}
+  {% endif %}
   <style>
     body {
       padding: 0 !important;
