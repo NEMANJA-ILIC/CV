@@ -87,8 +87,8 @@ education:
             - Bullet point
       - degree: Natural sciences and mathematics
         university: Grammar school Jovan Jovanović Zmaj, Novi Sad
-#        time: 2012.07. – 2008.09.
-        time: 2012 – 2008
+#        time: 2008.09. - 2012.07.
+        time: 2008 – 2012
 experiences:
     title: Experiences
     info:
