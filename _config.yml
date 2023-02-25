@@ -20,7 +20,7 @@
 
 title: Nemanja's CV
 theme_skin: blue # blue turquoise green berry orange ceramic
-chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
+chrome_mobile_color: "#42a8c0" #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
 analytics: True
 
